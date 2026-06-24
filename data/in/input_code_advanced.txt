@@ -1,0 +1,17 @@
+int x;
+int y;
+int z;
+int w;
+x = 10;
+y = 2;
+z = 4;
+w = x / y;
+if (w > z) {
+w = z;
+};
+if (w <= x) {
+w = x - w;
+} else {
+w = w + x;
+};
+return w;
